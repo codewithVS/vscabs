@@ -6,6 +6,7 @@ public class SelectVehicle {
 			return null;
 		}
 		if (PlanType .equalsIgnoreCase("Bike")) {
+			//subclass constructor 
 			return new Bike();
 		}
 		if (PlanType .equalsIgnoreCase("Auto")) {
